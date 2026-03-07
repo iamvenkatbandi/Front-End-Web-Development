@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav ul li a:hover{
+    color: blue;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.productimage{
+    margin-left: 15px;
+}
+
+.productdetails{
+    margin-left: 20px;
+}
+
+.productdetails h3{
+    font-size: 40px;
+}
+
+.productdetails p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.productdetails h4{
+    font-size: 25px;
+}
+
+.productdetails button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.features h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 5px;
+    flex-wrap: wrap;
+}
+
+.fcard{
+    height: 150px;
+    width: 260px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: beige;
+}
+
+.reviews h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rcard{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.rrcard{
+    height: 150px;
+    width: 260px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: 5px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.rrcard p{
+    padding-top: 5px;
+}
+
+.rating{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.footer p{
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.links li{
+    list-style-type: none;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
