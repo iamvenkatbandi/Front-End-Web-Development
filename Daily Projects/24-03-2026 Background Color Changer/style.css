@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+#container{
+    text-align: center;
+}
+
+#heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#btn{
+    border: 0px;
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: white;
+}
+
+#devnote{
+    height: 25px;
+    width: 300px;
+    background: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+}
+
+#devnote p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
+}
+
+#name{
+    font-weight: bold;
+    color: aqua;
+}
